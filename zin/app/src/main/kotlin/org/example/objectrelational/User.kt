@@ -9,8 +9,8 @@ import jakarta.persistence.*
 )
 data class User(
 
-    @Id
-    var id: Long,
+    @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
+    var id: Long? = null,
 
     @Column(length = 15, nullable = false, unique = true)
     var username: String,

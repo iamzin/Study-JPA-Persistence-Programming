@@ -41,6 +41,7 @@ dependencies {
     implementation("org.springframework.boot:spring-boot-starter-data-jpa")
     implementation("org.flywaydb:flyway-core")
     implementation("org.flywaydb:flyway-mysql")
+    implementation("org.jetbrains.kotlin:kotlin-reflect")
 
     runtimeOnly("com.h2database:h2")
     runtimeOnly("com.mysql:mysql-connector-j")

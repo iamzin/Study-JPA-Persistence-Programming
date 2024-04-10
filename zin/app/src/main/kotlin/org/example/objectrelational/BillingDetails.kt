@@ -7,8 +7,8 @@ import jakarta.persistence.*
 @DiscriminatorColumn(name = "TYPE", discriminatorType = DiscriminatorType.STRING)
 abstract class BillingDetails(
 
-    @Id
-    var id: Long,
+    @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
+    var id: Long? = null,
 
     @Column(nullable = false)
     var account: String,
@@ -25,26 +25,30 @@ abstract class BillingDetails(
 @DiscriminatorValue("CREDIT_CARD")
 class CreditCard(
 
-    id: Long,
-
     account: String,
 
     bankname: String,
 
     user: User
 
-): BillingDetails(id, account, bankname, user)
+): BillingDetails(
+    account = account,
+    bankname = bankname,
+    user = user
+)
 
 @Entity
 @DiscriminatorValue("BANK_ACCOUNT")
 class BankAccount(
 
-    id: Long,
-
     account: String,
 
     bankname: String,
 
     user: User
 
-): BillingDetails(id, account, bankname, user)
+): BillingDetails(
+    account = account,
+    bankname = bankname,
+    user = user
+)

@@ -1,6 +1,6 @@
 CREATE TABLE billing_details
 (
-    id       BIGINT       NOT NULL,
+    id       BIGINT AUTO_INCREMENT NOT NULL,
     type     VARCHAR(31)  NULL,
     account  VARCHAR(255) NOT NULL,
     bankname VARCHAR(255) NOT NULL,

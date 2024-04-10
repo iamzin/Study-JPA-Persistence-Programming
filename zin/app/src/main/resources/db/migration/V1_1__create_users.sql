@@ -1,6 +1,6 @@
 CREATE TABLE users
 (
-    id       BIGINT       NOT NULL,
+    id       BIGINT AUTO_INCREMENT NOT NULL,
     username VARCHAR(15)  NOT NULL,
     street   VARCHAR(255) NOT NULL,
     zipcode  VARCHAR(5)   NOT NULL,
