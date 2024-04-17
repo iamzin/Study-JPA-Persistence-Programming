@@ -27,7 +27,7 @@ class Users(
         return this.id != null && (this.id == other.id)
     }
 
-    override fun hashCode(): Int {
+    override fun hashCode(): Int {x
         return Objects.hash(this.id)
     }
 }
