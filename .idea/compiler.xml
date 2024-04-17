@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="ch02" target="21" />
+      <module name="jpastudy.main" target="21" />
+      <module name="jpastudy.test" target="21" />
+      <module name="jpastudy.week1.main" target="21" />
+      <module name="jpastudy.week1.test" target="21" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
