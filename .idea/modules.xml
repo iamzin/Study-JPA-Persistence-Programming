@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Study-JPA-Persistence-Programming.iml" filepath="$PROJECT_DIR$/.idea/Study-JPA-Persistence-Programming.iml" />
-      <module fileurl="file://$PROJECT_DIR$/toby/jpastudy/ch02/ch02.iml" filepath="$PROJECT_DIR$/toby/jpastudy/ch02/ch02.iml" />
     </modules>
   </component>
 </project>
