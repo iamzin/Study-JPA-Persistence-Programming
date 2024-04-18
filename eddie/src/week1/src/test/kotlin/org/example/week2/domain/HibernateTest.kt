@@ -1,4 +1,4 @@
-package org.example.week1.domain
+package org.example.week2.domain
 
 import javax.persistence.EntityManager
 import javax.persistence.EntityManagerFactory
