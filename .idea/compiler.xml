@@ -5,6 +5,9 @@
       <module name="ch02" target="21" />
       <module name="ch02.main" target="21" />
       <module name="ch02.test" target="21" />
+      <module name="ch03" target="21" />
+      <module name="ch03.main" target="21" />
+      <module name="ch03.test" target="21" />
       <module name="jpastudy.main" target="21" />
       <module name="jpastudy.test" target="21" />
       <module name="jpastudy.week1.main" target="21" />
