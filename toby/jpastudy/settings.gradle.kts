@@ -5,4 +5,4 @@ pluginManagement {
 	}
 }
 rootProject.name = "jpastudy"
-include("ch01", "ch02", "ch03")
+include("ch01", "ch02", "ch03", "ch04")
